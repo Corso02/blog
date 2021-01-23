@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    #root{
+       #app{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 10% 80% 10%;
+       }
+    }
+}
