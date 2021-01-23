@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70% 15% 15%;
+      grid-template-columns: 70% 15% 15%;
+  font-family: 'Yusei Magic', sans-serif;
+  background-color: #6590FD;
+  padding: 10px;
+}
+
+header h1 {
+  -ms-grid-column-align: right;
+      justify-self: right;
+  margin-right: 15vw;
+  color: white;
+}
+
+header a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 8vw;
+  background-color: #484D6D;
+  padding: 5px;
+  color: white;
+  opacity: 0.7;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header a:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+header .form {
+  display: -ms-grid;
+  display: grid;
+  padding: 10px 25px 10px 25px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #6590FD;
+  margin-top: 75px;
+  margin-right: 50px;
+  width: 20vw;
+  row-gap: 10px;
+}
+
+header .form button {
+  grid-column: auto/ span 2;
+  -ms-grid-column-align: right;
+      justify-self: right;
+  padding: 5px;
+  width: 75px;
+}
+
+header .form input {
+  padding: 5px;
+}
+
+header .form .errorInput {
+  border-color: red;
+}
+
+header .form p {
+  grid-column: auto / span 2;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+header #loginForm {
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+header #registerForm {
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 25% 25% 25% 25%;
+      grid-template-rows: 25% 25% 25% 25%;
+}
+/*# sourceMappingURL=header.css.map */
