@@ -1,0 +1,14 @@
+main{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    justify-content: center;
+    #leftNavBar{
+        background-color: #A0B6EF;
+        #navBar{
+            margin-left: 5px;
+            display: grid;
+            grid-template-rows: repeat(6, auto);
+            row-gap: 15px;
+        }
+    }
+}
