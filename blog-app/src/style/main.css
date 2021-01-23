@@ -1,0 +1,23 @@
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 85%;
+      grid-template-columns: 15% 85%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #leftNavBar {
+  background-color: #A0B6EF;
+}
+
+main #leftNavBar #navBar {
+  margin-left: 5px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[6];
+      grid-template-rows: repeat(6, auto);
+  row-gap: 15px;
+}
+/*# sourceMappingURL=main.css.map */
