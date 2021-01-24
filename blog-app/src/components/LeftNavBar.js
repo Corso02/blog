@@ -3,7 +3,7 @@ import React from 'react'
 function LeftNavBar(){
     return(
         <div id="navBar">
-            <h4>Most liked posts</h4>
+            <h4>Most liked posts: </h4>
             <a>Name of the first post</a>
             <a>Name of the second post</a>
             <a>Name of the third post</a>

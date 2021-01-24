@@ -53,6 +53,8 @@ header .form {
   margin-right: 50px;
   width: 20vw;
   row-gap: 10px;
+  -webkit-box-shadow: 10px 10px 8px 10px #c7c7c7;
+          box-shadow: 10px 10px 8px 10px #c7c7c7;
 }
 
 header .form button {
